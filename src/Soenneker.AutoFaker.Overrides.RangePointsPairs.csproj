@@ -14,7 +14,7 @@
         <AssemblyName>Soenneker.AutoFaker.Overrides.RangePointsPairs</AssemblyName>
         <PackageId>Soenneker.AutoFaker.Overrides.RangePointsPairs</PackageId>
         <PackageTags>autofaker overrides rangepointspairs dto range ml scoring bogus autobogus rangepointspairoverride autofakeroverride csharp dotnet c# .net</PackageTags>
-        <Copyright>Copyright © 2025 Jake Soenneker</Copyright>
+        <Copyright>Copyright © 2025-2026 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
