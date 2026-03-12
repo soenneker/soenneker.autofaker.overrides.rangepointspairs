@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.AutoFaker.Overrides.RangePointsPairs.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.AutoFaker.Overrides.RangePointsPairs\Soenneker.AutoFaker.Overrides.RangePointsPairs.csproj" />
     </ItemGroup>
 
     <ItemGroup>
