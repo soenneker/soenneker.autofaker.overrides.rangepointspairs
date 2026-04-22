@@ -1,11 +1,10 @@
-﻿using Soenneker.Tests.Unit;
-using Xunit;
+using Soenneker.Tests.Unit;
 
 namespace Soenneker.AutoFaker.Overrides.RangePointsPairs.Tests;
 
 public sealed class RangePointsPairOverrideTests : UnitTest
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
