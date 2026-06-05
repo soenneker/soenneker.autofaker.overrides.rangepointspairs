@@ -9,6 +9,10 @@ namespace Soenneker.AutoFaker.Overrides.RangePointsPairs;
 /// </summary>
 public sealed class RangePointsPairOverride : AutoFakerOverride<RangePointsPairOverride>
 {
+    /// <summary>
+    /// Executes the generate operation.
+    /// </summary>
+    /// <param name="context">The context.</param>
     public override void Generate(AutoFakerOverrideContext context)
     {
         var target = (context.Instance as RangePointsPair)!;
