@@ -3,11 +3,16 @@
 [![](https://img.shields.io/nuget/dt/soenneker.autofaker.overrides.rangepointspairs.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.autofaker.overrides.rangepointspairs/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.autofaker.overrides.rangepointspairs/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.autofaker.overrides.rangepointspairs/actions/workflows/codeql.yml)
 
-# ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.AutoFaker.Overrides.RangePointsPairs
-### An AutoFaker (AutoBogus) override for the object RangePointsPair
+# Soenneker.AutoFaker.Overrides.RangePointsPairs
 
-## Installation
+An AutoFaker (AutoBogus) override for the object RangePointsPair.
 
-```
+## Install
+
+```bash
 dotnet add package Soenneker.AutoFaker.Overrides.RangePointsPairs
 ```
+
+## What you get
+
+- `RangePointsPairOverride` — An AutoFaker (AutoBogus) override for the object RangePointsPair.
