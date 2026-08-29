@@ -5,14 +5,30 @@
 
 # Soenneker.AutoFaker.Overrides.RangePointsPairs
 
-An AutoFaker (AutoBogus) override for the object RangePointsPair.
+An AutoFaker override for the points value in a `RangePointsPair` fixture.
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Soenneker.AutoFaker.Overrides.RangePointsPairs
 ```
 
-## What you get
+## Usage
 
-- `RangePointsPairOverride` — An AutoFaker (AutoBogus) override for the object RangePointsPair.
+```csharp
+using Soenneker.AutoFaker.Overrides.MinMax;
+using Soenneker.AutoFaker.Overrides.RangePointsPairs;
+using Soenneker.Dtos.RangePointsPairs;
+using Soenneker.Utils.AutoBogus;
+
+var autoFaker = new AutoFaker();
+autoFaker.Config.Overrides =
+[
+    new MinMaxOverride(),
+    new RangePointsPairOverride()
+];
+
+RangePointsPair pair = autoFaker.Generate<RangePointsPair>();
+```
+
+The override assigns `Points` an integer from `0` through `20`, inclusive. Register `MinMaxOverride` as shown when the nested `Range` must also preserve ordered bounds.

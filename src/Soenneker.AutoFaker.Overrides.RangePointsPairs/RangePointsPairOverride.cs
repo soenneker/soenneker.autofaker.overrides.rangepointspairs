@@ -7,7 +7,7 @@ namespace Soenneker.AutoFaker.Overrides.RangePointsPairs;
 /// <summary>
 /// An AutoFaker (AutoBogus) override for the object RangePointsPair
 /// </summary>
-public sealed class RangePointsPairOverride : AutoFakerOverride<RangePointsPairOverride>
+public sealed class RangePointsPairOverride : AutoFakerOverride<RangePointsPair>
 {
     /// <summary>
     /// Executes the generate operation.
