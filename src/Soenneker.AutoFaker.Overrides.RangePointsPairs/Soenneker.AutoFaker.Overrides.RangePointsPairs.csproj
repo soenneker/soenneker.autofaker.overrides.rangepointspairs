@@ -46,7 +46,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Dtos.RangePointsPairs" Version="11.0.77" />
-        <PackageReference Include="Soenneker.Utils.AutoBogus" Version="11.0.1012" />
+        <PackageReference Include="Soenneker.Dtos.RangePointsPairs" Version="11.0.78" />
+        <PackageReference Include="Soenneker.Utils.AutoBogus" Version="11.0.1013" />
     </ItemGroup>
 </Project>
